@@ -1,0 +1,46 @@
+body {
+  padding-top: 5rem;
+}
+.container-fluid{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+body {
+  padding-top: 0px;
+}
+
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: left;
+}
+
+.home-block{
+  background-color: #FF765E;
+  padding: 10rem 1.5rem;
+  text-align: left;
+}
+
+.about-block{
+  background-color: #C2AE8C
+}
+
+.workloads-block{
+  background-color: #FCCF65
+}
+
+.logistics-block{
+  background-color: #FFE6C7
+}
+
+.timeline-block{
+  background-color: #B7BDC4
+}
+
+.sponsors-block{
+  background-color:
+}
+
+.footer-block{
+  background-color: white;
+}

@@ -1,0 +1,163 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+
+  <title>Starter Template for Bootstrap</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/starter-template/">
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- Custom styles for this template -->
+  <link href="index.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">HPC Boston 2019</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#competition">Overview</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#workloads">Workloads</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#logistics">Logistics</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#sponsors">Sponsors</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <a href="https://hpcboston.typeform.com/to/QwgFj2" class="btn btn-outline-danger my-2 my-sm-0" >Register</a>
+      </form>
+    </div>
+  </nav>
+
+  <main role="main" class="container-fluid">
+    <div class="flex-column">
+      <div class="starter-template home-block text-center">
+        <h1 class="display-4 "><strong>HPC Boston 2019</strong></h1>
+        <p class="lead"><strong>Boston's first HPC-centric hackathon </strong></p>
+        <p class="lead">Northeastern University <br> November 9th - 10th, 2019</p>
+        <br>
+        <a href="https://hpcboston.typeform.com/to/QwgFj2" class="btn btn-xl btn-outline-dark" role="button">Register Now</a>
+      </div>
+
+      <div id="competition" class="starter-template about-block">
+        <h1>Competiton Overview</h1>
+        <p class="lead">HPC Boston is a 2-day competition for undergraduate students.
+          Student teams must design and build a system that can execute typical HPC workloads.
+          Teams are scored primarily on the ability to complete the provided workloads at the best
+          price/performance.</p>
+          <h5>Team Information</h5>
+          <ol>
+            <li>Teams must consist of 2-4 currently-enrolled undergraduate students. Each student team may have one faculty or graduate student advisor. Once the competition starts, students may not consult advisors for any technical questions. </li>
+            <li>All team members must be available to attend from 8am to 8pm on November 9th and 8am to 12pm on November 10th</li>
+            <li>During the duration of the competition, food will be provided to students. Teams are strongly encouraged to find sponsorship for their hardware and transportation costs.</li>
+          </ol>
+          <br>
+          <h5>Hardware Specifications</h5>
+          <p>There is a $5,000 cap on hardware expenses for the team. All relevant hardware (including but not limited to cases and cables) must be under this budget. Hardware must be purchased new and from retailers that are accessible to everyone.
+            <br>
+            <br>
+            During the application process, teams will have an opportunity to submit a hardware specification. This hardware specification list may change up until two weeks before the start of the competition. At this time, a final specification list must be submitted along with an accurate budget. ALL hardware purchased for the final system (including but not limited to cases and cables) must be included in this budget.
+            <br>
+            <br>
+            This budget must include the following information for all components used in the final competition system:
+            <ul>
+              <li>Location purchased</li>
+              <li>Price of equipment</li>
+              <li>Quantity</li>
+            </ul>
+            Once the competition begins, the specifications of a system cannot be changed. In the event that a component fails during the competition, hardware may be replaced for the exact same hardware.
+          </p>
+          <br>
+          <h5> Judging and Prizes </h5>
+          <p>Team will be mainly scored on completion of workloads as well as HPCG scores. A prize for the best team will be awarded.</p>
+        </div>
+
+        <div id="workloads" class="starter-template workloads-block">
+          <h1>Workloads</h1>
+          <p class="lead">During the competition, students will be running a diverse set of workloads.</p>
+          <h5> Preliminary workloads </h5>
+          <p>Teams will be required to run <a href="http://hpcg-benchmark.org">HPCG Benchmark</a>,
+             an industry standard benchmark designed to profile paralle systems.</p>
+          <p> In addition, teams will be required to develop the below programs: </p>
+          <ul>
+            <li>A graph-based search application</li>
+            <li>A document string-search application</li>
+            <li>A clustering-based application</li>
+          </ul>
+          <p>Finally, a mystery application will be announed at the day of the competition.</p>
+          </ul>
+          <p><strong>A detailed description of each workload will be posted by October 5th</strong></p>
+          <button type="button" class="btn btn-outline-dark">Coming Soon</button>
+        </div>
+        <div id="logistics" class="starter-template logistics-block">
+          <h1>Applications and Logistics</h1>
+          <p class="lead">The priority deadline for applications is <strong>October 5th, 2019</strong>. <br> Applications will be accepted on a rolling basis after and will close when there is no more space.</p>
+          <p> Applications are submitted through Typeform, a 3rd party service. Along with basic biographic information, a 1 to 2 page proposal must be attached.</p>
+          <p> Each proposal must include the following information: </p>
+          <ol>
+            <li> Preliminary hardware information
+              <ul>
+                <li> Basic hardware specifications, such as processor types, RAM, storage, number of nodes/system, etc. </li>
+                <li> How will your team optimize your system for the best price to performance ratio? </li>
+              </ul>
+            </li>
+            <li> Team member background information
+              <ul>
+                <li> Past experience of team members (including internships, co-ops, and researach experience) </li>
+                <li> How will you use your past experience to succeed in this competition? </li>
+              </ul>
+            </li>
+            <li> Vendor/institution support </li>
+            <li> Plan for workload implementions </li>
+          </div>
+
+          <div id="sponsors" class="starter-template timeline-block">
+            <h1>Sponsors</h1>
+            <p class="lead">Thank you to the following organizations for supporing HPC Boston 2019.</p>
+          </div>
+
+          <div id="contact" class="starter-template sponsors-block">
+            <h1>Contact</h1>
+            <p class="lead">Questions? Email ___@husky.neu.edu</p>
+            <h5>About NUCAR</h5>
+            <p> HPC Boston is being run by students from Northeastern University’s Computer Architecture Laboratory, also known as NUCAR.
+              NUCAR conducts research in areas such as computer security, GPU computing, and embedded systems.
+              The lab is overseen by Professor David Kaeli. </p>
+            </div>
+          </div>
+        </main><!-- /.container -->
+
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+      </body>
+      </html>
