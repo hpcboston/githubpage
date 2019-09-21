@@ -2,45 +2,49 @@ body {
   padding-top: 5rem;
 }
 .container-fluid{
-  padding-left: 0px;
-  padding-right: 0px;
+  /* padding-left: 0px;
+  padding-right: 0px; */
+}
+
+.navbar{
+  background-color: #212529 !important
 }
 
 body {
   padding-top: 0px;
+  background-color: #343a40;
+  color:#ffffff;
+
+}
+
+a {
+  color: #dd3445;
 }
 
 .starter-template {
-  padding: 3rem 1.5rem;
+  padding: 1rem 2rem;
   text-align: left;
 }
 
 .home-block{
-  background-color: #FF765E;
-  padding: 10rem 1.5rem;
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('assets/header_photo.jpg');
+  background-size: cover;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding: 10rem 2rem;
   text-align: left;
 }
 
+.home-block .img{
+  opacity: 0.45;
+}
+
 .about-block{
-  background-color: #C2AE8C
 }
 
-.workloads-block{
-  background-color: #FCCF65
-}
+.border-box{
+  padding: 2rem 1rem;
 
-.logistics-block{
-  background-color: #FFE6C7
-}
-
-.timeline-block{
-  background-color: #B7BDC4
-}
-
-.sponsors-block{
-  background-color:
-}
-
-.footer-block{
-  background-color: white;
+  border:3px solid #dd3445;
+  border-radius: 5px;
 }
