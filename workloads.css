@@ -1,0 +1,50 @@
+body {
+  padding-top: 5rem;
+}
+.container-fluid{
+  /* padding-left: 0px;
+  padding-right: 0px; */
+}
+
+.navbar{
+  background-color: #212529 !important
+}
+
+body {
+  padding-top: 0px;
+  background-color: #343a40;
+  color:#ffffff;
+
+}
+
+a {
+  color: #dd3445;
+}
+
+.starter-template {
+  padding: 1rem 2rem;
+  text-align: left;
+}
+
+.home-block{
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('assets/app_header.jpg');
+  background-size: cover;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding: 10rem 2rem;
+  text-align: left;
+}
+
+.home-block .img{
+  opacity: 0.45;
+}
+
+.about-block{
+}
+
+.border-box{
+  padding: 1.5rem 1.5rem;
+
+  border:3px solid #dd3445;
+  border-radius: 5px;
+}
